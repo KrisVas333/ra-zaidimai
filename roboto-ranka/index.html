@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="lt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Roboto ranka</title>
+<meta name="robots" content="noindex">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="app">
+  <div id="stage" role="img" aria-label="Žaidimo vaizdas: parkas, robotas ir draugai"></div>
+  <div id="hot-layer"></div>
+  <div id="scene-ui"></div>
+
+  <header id="hud" hidden>
+    <button class="btn" id="btn-home" aria-label="Į pradžią"></button>
+    <div id="progress" aria-hidden="true"></div>
+    <div id="pocket" hidden aria-label="Išmoktos kaladėlės"></div>
+    <button class="btn" id="btn-repeat" aria-label="Pakartoti"></button>
+    <button class="btn btn-sm" id="btn-cc" aria-label="Subtitrai" aria-pressed="true"></button>
+  </header>
+
+  <div id="caption" aria-live="polite" hidden>
+    <div id="cap-face"></div>
+    <p id="cap-text"></p>
+    <button id="btn-skip" aria-label="Praleisti"></button>
+  </div>
+
+  <div id="overlay-root"></div>
+
+  <div id="loading"><div class="spinner"></div></div>
+
+  <div id="fallback" hidden>
+    <div class="fb-card">
+      <svg viewBox="0 0 120 100" width="140" height="116" aria-hidden="true">
+        <rect x="22" y="22" width="76" height="52" rx="14" fill="#fff" stroke="#2b1a5a" stroke-width="4"/>
+        <rect x="30" y="14" width="60" height="12" rx="6" fill="#39e6e0" stroke="#2b1a5a" stroke-width="4"/>
+        <circle cx="46" cy="46" r="8" fill="#39e6e0" stroke="#2b1a5a" stroke-width="4"/>
+        <circle cx="74" cy="46" r="8" fill="#39e6e0" stroke="#2b1a5a" stroke-width="4"/>
+        <circle cx="34" cy="82" r="10" fill="#2b1a5a"/><circle cx="86" cy="82" r="10" fill="#2b1a5a"/>
+      </svg>
+      <h1>Oi!</h1>
+      <p id="fb-text">Šiame įrenginyje žaidimas nepasileido. Pabandykite atidaryti jį naujesnėje naršyklėje (pavyzdžiui, Chrome) arba kitame įrenginyje.</p>
+    </div>
+  </div>
+</div>
+<script src="https://krisvas333.github.io/neuron-ar/kv/kv-track.js" data-mode="kids" defer></script>
+<script type="module" src="src/boot.js"></script>
+<!-- ⭐ Scorecard (anonymous feedback). Opened from the end screen and the „Tėvams" card; a link with ?scorecard shows it on every screen for test sessions. -->
+<script src="src/scorecard.js" data-project="ra-lesson-07" data-version="v8" data-mode="kids" data-hidden="1" data-pos="ml" data-mount="#app" defer></script>
+</body>
+</html>
