@@ -62,6 +62,7 @@ export function enter(ctx) {
   pb.className = 'link-btn'; pb.type = 'button'; pb.textContent = 'Tėvams';
   pb.addEventListener('click', (e) => { e.stopPropagation(); UI.parentCard(); });
   pl.appendChild(pb);
+  UI.add('<p>Pasakotojo balsas sukurtas dirbtiniu intelektu pagal Kris\'o balsą.</p>', 'ai-note');
 }
 
 export async function auto(ctx) {

@@ -262,6 +262,8 @@ html.rot #app {
 .btn.huge { width: 128px; height: 128px; }
 .btn.huge svg { width: 52%; height: 52%; }
 .parents-link { position: absolute; right: calc(14px + var(--sar)); top: calc(14px + var(--sat)); }
+.ai-note { position: absolute; left: calc(14px + var(--sal)); bottom: calc(10px + var(--sab)); max-width: min(60%, 420px); pointer-events: none; }
+.ai-note p { margin: 0; font-size: 13px; line-height: 1.4; color: #fff; text-shadow: 0 1px 3px rgba(0,0,0,.7); }
 
 /* step badge (build) */
 .stepbox { position: absolute; left: calc(12px + var(--sal)); top: calc(var(--hud-h) + var(--sat) + 8px); display: flex; flex-direction: column; gap: 8px; align-items: flex-start; pointer-events: none; }

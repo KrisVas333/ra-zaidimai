@@ -278,7 +278,7 @@ export const UI = {
         <h3>Garsas</h3>
         <p>Užduotys skamba balsu. Išjungus garsą vaikas jų neišgirs, todėl viršuje atsiras didelis mygtukas garsui įjungti.</p>
         <div class="sound-row"></div>
-        <p class="note"><b>Svarbu žinoti:</b> Bandomoji versija, nemokama. Sukurta su dirbtiniu intelektu, gali pasitaikyti klaidų. Skaičiai apytiksliai. Pažanga saugoma tik šiame įrenginyje. Žaidimas siunčia tik tai, ką pasirenkate paspaudę „Įvertinkite“: anonimiškai, be vardų ir be slapukų.</p>
+        <p class="note"><b>Svarbu žinoti:</b> Bandomoji versija, nemokama. Sukurta su dirbtiniu intelektu, gali pasitaikyti klaidų. Pasakotojo balsas sukurtas dirbtiniu intelektu pagal Kris'o balsą. Skaičiai apytiksliai. Pažanga saugoma tik šiame įrenginyje. Žaidimas skaičiuoja anoniminius įvykius (atidarymus ir paspaudimus) ir siunčia tai, ką pasirenkate paspaudę „Įvertinkite“: be vardų ir be slapukų. Komentaruose nerašykite vardų.</p>
         <p>Pastebėjote klaidą ar turite idėją? Įvertinkite žaidimą (apie 20 sekundžių). Atsakymus skaito žaidimo kūrėjai.</p>
         <div class="rate-row"></div>
         <div class="reset-row"></div>
